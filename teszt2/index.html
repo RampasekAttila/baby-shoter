@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoShare - Videómegosztó Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-video"></i> VideoShare
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trending.html"><i class="fas fa-fire"></i> Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html"><i class="fas fa-list"></i> Kategóriák</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="upload.html"><i class="fas fa-upload"></i> Feltöltés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Bejelentkezés</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html"><i class="fas fa-user-plus"></i> Regisztráció</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">VideoShare</h1>
+            <p class="lead">Ossza meg videóit a világgal</p>
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-warning btn-lg me-3">Regisztráció</a>
+                <a href="upload.html" class="btn btn-outline-warning btn-lg">Videó feltöltése</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Videos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Kiemelt videók</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <i class="fas fa-play-circle play-icon"></i>
+                            <img src="https://via.placeholder.com/350x200?text=Video+1" alt="Video thumbnail" class="img-fluid">
+                        </div>
+                        <div class="video-info">
+                            <h5>Oktatási videó #1</h5>
+                            <p class="text-muted">123K megtekintés • 2 napja</p>
+                            <div class="creator-info">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Felhasználó1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <i class="fas fa-play-circle play-icon"></i>
+                            <img src="https://via.placeholder.com/350x200?text=Video+2" alt="Video thumbnail" class="img-fluid">
+                        </div>
+                        <div class="video-info">
+                            <h5>Szórakoztató tartalom</h5>
+                            <p class="text-muted">456K megtekintés • 1 hete</p>
+                            <div class="creator-info">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Felhasználó2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <i class="fas fa-play-circle play-icon"></i>
+                            <img src="https://via.placeholder.com/350x200?text=Video+3" alt="Video thumbnail" class="img-fluid">
+                        </div>
+                        <div class="video-info">
+                            <h5>Technológiai bemutató</h5>
+                            <p class="text-muted">789K megtekintés • 3 napja</p>
+                            <div class="creator-info">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Felhasználó3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center text-warning mb-5">Kategóriák</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <div class="category-card">
+                        <i class="fas fa-graduation-cap category-icon"></i>
+                        <h5>Oktatás</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="category-card">
+                        <i class="fas fa-gamepad category-icon"></i>
+                        <h5>Gaming</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="category-card">
+                        <i class="fas fa-music category-icon"></i>
+                        <h5>Zene</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="category-card">
+                        <i class="fas fa-utensils category-icon"></i>
+                        <h5>Főzés</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-video"></i> VideoShare</h5>
+                    <p>A legjobb videómegosztó platform</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>&copy; 2025 VideoShare. Minden jog fenntartva.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
