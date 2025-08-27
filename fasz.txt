@@ -1,0 +1,2 @@
+if denk in fasz:
+  denk_iq = 0
