@@ -1,2 +1,4 @@
 if denk in fasz:
-  denk_iq = 0
+	denk_iq = 0
+else:
+	geci = fasz
